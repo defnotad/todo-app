@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo';
+  counter = 0;
+
+  increment_counter () {
+    this.counter++;
+  }
 }
